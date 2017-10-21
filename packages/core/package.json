@@ -1,0 +1,9 @@
+{
+  "name": "@devfestmd/core",
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": true,
+  "peerDependencies": {
+    "@angular/core": "^4.4.0"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "@devfestmd/core",
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": true,
+  "peerDependencies": {
+    "@angular/core": "^4.4.0"
+  },
+  "main": "bundles/core.umd.js",
+  "module": "@devfestmd/core.es5.js",
+  "es2015": "@devfestmd/core.js",
+  "typings": "core.d.ts",
+  "metadata": "core.metadata.json"
+}
