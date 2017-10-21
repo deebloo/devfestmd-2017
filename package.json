@@ -9,9 +9,9 @@
     "prepare": "npm run link:core && npm run link:common",
     "package": "npm run package:core && npm run package:common",
     "link:core": "npm link packages/core",
-    "package:core": "ng-packagr -p packages/core/ng-packagr.json && npm link builds/core",
+    "package:core": "ng-packagr -p packages/core/ng-package.json && npm link builds/core",
     "link:common": "npm link packages/common",
-    "package:common": "ng-packagr -p packages/common/ng-packagr.json && npm link builds/common",
+    "package:common": "ng-packagr -p packages/common/ng-package.json && npm link builds/common",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
